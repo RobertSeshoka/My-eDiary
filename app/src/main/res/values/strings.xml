@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My eDiary</string>
+    <string name="title_activity_options">Options</string>
+    <string name="Create">Tab 1</string>
+    <string name="Read">Tab 2</string>
+    <string name="Update">Tab 2</string>
+</resources>

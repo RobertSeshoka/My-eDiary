@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffff"
+                android:orientation="horizontal">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="116dp"
+                    android:layout_height="84dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="23dp"
+                    android:src="@drawable/read">
+
+                </pl.droidsonroids.gif.GifImageView>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="180dp"
+                    android:layout_height="42dp"
+                    android:layout_marginStart="34dp"
+
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="44dp"
+                    android:text="Reading data"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <!--Button-->
+            <Button
+                android:id="@+id/btnRead"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="145dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/buttonshape"
+                android:padding="16dp"
+                android:text="Read data"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#ffff" />
+
+
+            <Button
+                android:id="@+id/btnShowData"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="145dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/buttonshape"
+                android:padding="16dp"
+                android:text="Show in listview"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#ffff" />
+
+            <!--End of button-->
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
